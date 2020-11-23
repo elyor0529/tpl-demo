@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="libs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Cloo">
+      <HintPath>libs\Cloo.dll</HintPath>
+    </Reference>
+    <Reference Include="CUDA.NET">
+      <HintPath>libs\CUDA.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Cudafy">
+      <HintPath>libs\Cudafy.dll</HintPath>
+    </Reference>
+    <Reference Include="Cudafy.Host">
+      <HintPath>libs\Cudafy.Host.dll</HintPath>
+    </Reference>
+    <Reference Include="Cudafy.Translator">
+      <HintPath>libs\Cudafy.Translator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
